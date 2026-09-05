@@ -1397,14 +1397,14 @@ footer{border-top:1px solid var(--border);padding:44px 0 32px}
 
       <!--
         フォーム送信先について（FormSubmit.co / アカウント登録不要）:
-        1) 下の action には最初から ykfuruya0703@gmail.com 宛のエンドポイントが設定済みです
-        2) 初回送信時のみ、FormSubmit.co から ykfuruya0703@gmail.com に確認メールが届きます。
+        1) 下の action には最初から furuya@project-innovation.jp 宛のエンドポイントが設定済みです
+        2) 初回送信時のみ、FormSubmit.co から furuya@project-innovation.jp に確認メールが届きます。
            本文中の「Activate Form」リンクを1回クリックすると有効化され、
-           以降の送信内容がそのまま ykfuruya0703@gmail.com に届くようになります
+           以降の送信内容がそのまま furuya@project-innovation.jp に届くようになります
         3) 有効化が済むまでの間に届いた送信内容（確認メール自体）も見逃さないよう、
-           ykfuruya0703@gmail.com の受信箱をご確認ください
+           furuya@project-innovation.jp の受信箱をご確認ください
       -->
-      <form id="leadForm" class="lead-form" action="https://formsubmit.co/ajax/ykfuruya0703@gmail.com" method="POST">
+      <form id="leadForm" class="lead-form" action="https://formsubmit.co/ajax/furuya@project-innovation.jp" method="POST">
         <div class="lf-row">
           <input type="text" name="name" placeholder="お名前" autocomplete="name" required>
           <input type="text" name="company" placeholder="会社名・屋号" autocomplete="organization">
@@ -1424,7 +1424,7 @@ footer{border-top:1px solid var(--border);padding:44px 0 32px}
         <button type="submit" class="btn btn-primary lf-submit"><span>🌱 無料相談・デモを申し込む</span></button>
         <div class="lf-status" id="lfStatus" role="status" aria-live="polite"></div>
       </form>
-      <p class="lf-alt">お急ぎの方は <a href="mailto:ykfuruya0703@gmail.com">ykfuruya0703@gmail.com</a> まで直接ご連絡ください。</p>
+      <p class="lf-alt">お急ぎの方は <a href="mailto:furuya@project-innovation.jp">furuya@project-innovation.jp</a> まで直接ご連絡ください。</p>
     </div>
   </div>
 </section>
@@ -1679,7 +1679,7 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
   form.addEventListener('submit', async function(e){
     e.preventDefault();
     const btn=form.querySelector('button[type=submit]');
-    const action='https://formsubmit.co/ajax/ykfuruya0703@gmail.com';
+    const action='https://formsubmit.co/ajax/furuya@project-innovation.jp';
     btn.disabled=true;
     status.textContent='送信中...';
     status.className='demo-gate-status';
@@ -1727,7 +1727,7 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
         throw new Error((data.errors&&data.errors.map(x=>x.message).join(', '))||'送信に失敗しました');
       }
     }catch(err){
-      status.textContent='⚠️ 送信に失敗しました。お手数ですが ykfuruya0703@gmail.com まで直接ご連絡ください。';
+      status.textContent='⚠️ 送信に失敗しました。お手数ですが furuya@project-innovation.jp まで直接ご連絡ください。';
       status.className='lf-status err';
     }finally{
       btn.disabled=false;
