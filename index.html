@@ -257,7 +257,12 @@ nav a:hover{color:var(--accent)}
 .blog-modal-overlay.show{display:flex}
 .blog-modal-box{width:640px;max-width:100%;max-height:82vh;overflow-y:auto;background:var(--bg1);border:1px solid var(--border2);border-radius:16px;padding:34px}
 .blog-modal-close{float:right;background:none;border:none;color:var(--text2);font-size:20px;cursor:pointer;line-height:1;margin-left:12px}
-.blog-modal-box h2{font-size:20px;color:var(--text);margin-bottom:18px;line-height:1.4;font-weight:800}
+.blog-modal-box h2{font-size:20px;color:var(--text);margin-bottom:8px;line-height:1.4;font-weight:800}
+.blog-share{display:flex;align-items:center;gap:8px;margin-bottom:18px}
+.blog-share button{font-size:11.5px;font-weight:700;color:var(--accent);background:rgba(62,207,110,.08);border:1px solid rgba(62,207,110,.3);border-radius:8px;padding:5px 10px;cursor:pointer}
+.blog-share button:hover{background:rgba(62,207,110,.16)}
+.blog-share .bs-copied{font-size:11.5px;color:var(--accent);opacity:0;transition:opacity .2s}
+.blog-share .bs-copied.show{opacity:1}
 .blog-modal-box .blog-body p{font-size:13.5px;color:var(--text2);line-height:1.9;margin-bottom:16px}
 .blog-cta{margin-top:8px;padding:18px 20px;background:rgba(62,207,110,.07);border:1px solid rgba(62,207,110,.28);border-radius:12px}
 .blog-cta .bc-label{font-size:10.5px;color:var(--accent);letter-spacing:1px;font-weight:700;margin-bottom:8px}
@@ -907,6 +912,10 @@ footer{border-top:1px solid var(--border);padding:44px 0 32px}
   <div class="blog-modal-box">
     <button class="blog-modal-close" onclick="closeBlogArticle()">✕</button>
     <h2 id="blogModalTitle"></h2>
+    <div class="blog-share">
+      <button type="button" onclick="copyBlogArticleLink()">🔗 このコラムのURLをコピー</button>
+      <span class="bs-copied" id="blogShareCopied">コピーしました</span>
+    </div>
     <div class="blog-body" id="blogModalBody"></div>
   </div>
 </div>
@@ -1637,8 +1646,19 @@ function setBlogCategory(c){
 }
 renderBlogCatFilter();
 renderBlogGrid();
-function openBlogArticle(i){
+function blogSlug(i){ return 'col-' + String(i+1).padStart(2,'0'); }
+function blogIndexFromSlug(slug){
+  const m = /^col-(\d+)$/.exec(slug||'');
+  if(!m) return -1;
+  const i = parseInt(m[1],10) - 1;
+  return (i>=0 && i<BLOG_ARTICLES.length) ? i : -1;
+}
+let blogCurrentIndex = -1;
+function openBlogArticle(i, opts){
+  opts = opts || {};
   const a = BLOG_ARTICLES[i];
+  if(!a) return;
+  blogCurrentIndex = i;
   document.getElementById('blogModalTitle').textContent = a.title;
   let html = a.body.map(p=>`<p>${p}</p>`).join('');
   if(a.feature){
@@ -1652,10 +1672,43 @@ function openBlogArticle(i){
   }
   document.getElementById('blogModalBody').innerHTML = html;
   document.getElementById('blogModalOverlay').classList.add('show');
+  document.getElementById('blogShareCopied').classList.remove('show');
+  if(!opts.fromHash){
+    history.pushState({blog:i}, '', '#' + blogSlug(i));
+  }
 }
-function closeBlogArticle(){
+function closeBlogArticle(opts){
+  opts = opts || {};
   document.getElementById('blogModalOverlay').classList.remove('show');
+  blogCurrentIndex = -1;
+  if(!opts.fromHash && location.hash.startsWith('#col-')){
+    history.pushState(null, '', location.pathname + location.search + '#blog');
+  }
 }
+function copyBlogArticleLink(){
+  if(blogCurrentIndex < 0) return;
+  const url = location.origin + location.pathname + '#' + blogSlug(blogCurrentIndex);
+  const done = ()=>{
+    const el = document.getElementById('blogShareCopied');
+    el.classList.add('show');
+    setTimeout(()=>el.classList.remove('show'), 1800);
+  };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(done).catch(()=>prompt('このURLをコピーしてください', url));
+  } else {
+    prompt('このURLをコピーしてください', url);
+  }
+}
+function applyBlogHash(fromPopstate){
+  const i = blogIndexFromSlug(location.hash.slice(1));
+  if(i>=0){
+    openBlogArticle(i, {fromHash:true});
+  } else if(fromPopstate){
+    closeBlogArticle({fromHash:true});
+  }
+}
+window.addEventListener('popstate', ()=>applyBlogHash(true));
+applyBlogHash(false);
 function goToFeatureFromBlog(href){
   closeBlogArticle();
   setTimeout(()=>{
