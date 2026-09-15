@@ -330,6 +330,12 @@ header{position:fixed;top:0;left:0;right:0;z-index:200;height:66px;display:flex;
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
 .logo-text b{font-size:15px;color:var(--text);letter-spacing:.5px;display:block}
 .logo-text span{font-size:9px;color:var(--accent);letter-spacing:2.5px;text-transform:uppercase}
+/* card-style elements are real <a> tags now (for real navigation), but
+   must not show the browser's default underline/blue-link styling —
+   each still sets its own child colors explicitly. */
+.blog-card, .blog-next{text-decoration:none;color:inherit}
+.blog-card:visited, .blog-next:visited{color:inherit}
+
 /* visited-link color fix: browsers default :visited to blue/purple with
    higher specificity than plain element/class selectors, which was
    overriding this site's intended colors once a link had been clicked. */
