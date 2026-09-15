@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ykfuruya0703-create.github.io/jinmyaku-mori-lp/sitemap.xml
+Sitemap: https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/sitemap.xml
