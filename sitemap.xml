@@ -1,231 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://jinmyaku-mori.jp/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/hunting-to-farming-networking/</loc>
-    <lastmod>2026-05-05</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-structural-holes/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/mutual-friend-psychological-effect/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-events/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/trustworthy-profile-design/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-mentor/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/pre-meeting-research-method/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-management/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/meeting-etiquette-for-next-step/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-network/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/referral-cycle-system/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-reciprocity/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/introvert-friendly-community-use/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-ingroup-bias/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/gratitude-point-technique/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-portfolio/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/email-technique-for-replies/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-follow-up/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/repeating-success-technique/</loc>
-    <lastmod>2026-07-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/five-minute-daily-network-visualization/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/retention-with-jinmyaku-mori/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/improve-luck-with-quality-network/</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/essence-of-networking-for-givers/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/value-the-person-in-front-of-you/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/author-profile/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/real-estate-sales-networking/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/business-cards-relationships-dying/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/mere-exposure-effect-and-trust/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/remembering-names-builds-trust/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/dont-depend-on-one-community/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/measure-depth-not-quantity/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/consistency-principle-small-favors/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/mentorship-passing-on-connections/</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/reciprocity-give-first/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/how-to-ask-for-referrals/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/three-habits-of-great-connectors/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/when-a-referral-doesnt-work-out/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/questions-for-a-second-meeting/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/similarity-principle-instant-rapport/</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/annual-network-asset-review/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/strength-of-weak-ties/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/thank-you-on-the-day-you-meet/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/social-proof-and-trusted-connectors/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/introducing-people-you-met-online/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ykfuruya0703-create.github.io/jinmyaku-mori.jp/blog/diversify-your-network/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
