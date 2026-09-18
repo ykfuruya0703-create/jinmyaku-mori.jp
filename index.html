@@ -257,6 +257,8 @@ nav a:hover{color:var(--accent)}
 .blog-cat-chip{padding:7px 16px;border-radius:999px;border:1px solid var(--border2);font-size:12.5px;color:var(--text2);background:var(--bg2);cursor:pointer;transition:.15s;user-select:none}
 .blog-cat-chip.on{background:var(--accent-deep);border-color:var(--accent-deep);color:#fff;font-weight:700}
 .blog-cat-chip:hover:not(.on){border-color:var(--accent);color:var(--accent)}
+.blog-cat-chip .cnt{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;font-size:10.5px;font-weight:700;background:rgba(255,255,255,.14);color:inherit}
+.blog-cat-chip.on .cnt{background:rgba(255,255,255,.28)}
 .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .blog-card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:22px;cursor:pointer;transition:.2s;display:flex;flex-direction:column}
 .blog-card:hover{border-color:var(--accent);transform:translateY(-2px)}
@@ -2303,7 +2305,8 @@ const BLOG_ARTICLES = [
       "「人脈の森」には、表記ゆれのあるタグをまとめて統合したり、一括でリネームや削除ができたりする機能があります。何千人分のつながりになっても、整理された状態を保ちやすくする仕組みとして、人脈が数百人規模を超えてきたタイミングでぜひ活用してみてください。",
     ],
     feature: {href:"#sig-08", label:"🏷️ タグマスター管理", desc:"表記ゆれタグの統合・一括リネーム・削除で、何千人分のタグでも綺麗に保てます。"}
-  },  {
+  },
+  {
     title: "しばらく連絡していない人ほど、実は人脈の資産になる理由",
     date: "2026-09-15",
     excerpt: "しばらく連絡していない相手ほど、実は大きな資産になり得る。休眠期間を恐れず人脈を育てる考え方について。",
@@ -2364,8 +2367,12 @@ const BLOG_ARTICLES = [
 const BLOG_CATEGORIES = ["すべて","考え方","心理学","実践","紹介・コミュニティ","執筆者紹介"];
 let blogActiveCat = "すべて";
 function renderBlogCatFilter(){
+  const counts = {};
+  BLOG_CATEGORIES.forEach(c=>{
+    counts[c] = c==="すべて" ? BLOG_ARTICLES.length : BLOG_ARTICLES.filter(a=>a.category===c).length;
+  });
   document.getElementById('blogCatFilter').innerHTML = BLOG_CATEGORIES.map(c=>
-    `<span class="blog-cat-chip ${c===blogActiveCat?'on':''}" onclick="setBlogCategory('${c}')">${c}</span>`
+    `<span class="blog-cat-chip ${c===blogActiveCat?'on':''}" onclick="setBlogCategory('${c}')">${c}<span class="cnt">${counts[c]}</span></span>`
   ).join('');
 }
 function formatBlogDate(d){
