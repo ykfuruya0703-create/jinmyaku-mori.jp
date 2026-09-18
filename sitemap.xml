@@ -1,375 +1,393 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jinmyaku-mori.jp/</loc>
-    <lastmod>2026-09-18</lastmod>
+    <loc>https://jinmyaku.biz/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/</loc>
-    <lastmod>2026-09-18</lastmod>
+    <loc>https://jinmyaku.biz/blog/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-homophily/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-homophily/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-small-world/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-small-world/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-mere-exposure/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-mere-exposure/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-dunbar/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-dunbar/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-social-capital/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-social-capital/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-networking-fatigue/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-networking-fatigue/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-givers-takers/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-givers-takers/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-reference-check/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-reference-check/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-visibility/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-visibility/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-structural-holes/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-structural-holes/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-events/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-events/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-mentor/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-mentor/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-management/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-management/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-network/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-network/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-reciprocity/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-reciprocity/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-ingroup-bias/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-ingroup-bias/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-portfolio/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-portfolio/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/jinmyaku-follow-up/</loc>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-follow-up/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-organizing-large-contact-lists/</loc>
+    <loc>https://jinmyaku.biz/blog/column-organizing-large-contact-lists/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-referral-responsibility/</loc>
+    <loc>https://jinmyaku.biz/blog/column-referral-responsibility/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-reliable-vs-acquaintance/</loc>
+    <loc>https://jinmyaku.biz/blog/column-reliable-vs-acquaintance/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-natural-conversation-at-events/</loc>
+    <loc>https://jinmyaku.biz/blog/column-natural-conversation-at-events/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-peak-end-rule/</loc>
+    <loc>https://jinmyaku.biz/blog/column-peak-end-rule/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-dormant-contacts-as-assets/</loc>
+    <loc>https://jinmyaku.biz/blog/column-dormant-contacts-as-assets/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-step-out-of-homogeneous-network/</loc>
+    <loc>https://jinmyaku.biz/blog/column-step-out-of-homogeneous-network/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-introducing-online-contacts/</loc>
+    <loc>https://jinmyaku.biz/blog/column-introducing-online-contacts/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-social-proof-influencers/</loc>
+    <loc>https://jinmyaku.biz/blog/column-social-proof-influencers/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-thank-you-on-day-one/</loc>
+    <loc>https://jinmyaku.biz/blog/column-thank-you-on-day-one/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-weak-ties-granovetter/</loc>
+    <loc>https://jinmyaku.biz/blog/column-weak-ties-granovetter/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-annual-network-audit/</loc>
+    <loc>https://jinmyaku.biz/blog/column-annual-network-audit/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-similarity-attraction/</loc>
+    <loc>https://jinmyaku.biz/blog/column-similarity-attraction/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-questions-for-meeting-again/</loc>
+    <loc>https://jinmyaku.biz/blog/column-questions-for-meeting-again/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-when-referrals-go-wrong/</loc>
+    <loc>https://jinmyaku.biz/blog/column-when-referrals-go-wrong/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-three-habits-of-good-referrers/</loc>
+    <loc>https://jinmyaku.biz/blog/column-three-habits-of-good-referrers/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-asking-for-referrals-gracefully/</loc>
+    <loc>https://jinmyaku.biz/blog/column-asking-for-referrals-gracefully/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-givers-win-in-the-end/</loc>
+    <loc>https://jinmyaku.biz/blog/column-givers-win-in-the-end/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-mentorship-passing-connections/</loc>
+    <loc>https://jinmyaku.biz/blog/column-mentorship-passing-connections/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-small-favors-consistency/</loc>
+    <loc>https://jinmyaku.biz/blog/column-small-favors-consistency/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-depth-over-quantity/</loc>
+    <loc>https://jinmyaku.biz/blog/column-depth-over-quantity/</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-avoid-single-community-dependence/</loc>
+    <loc>https://jinmyaku.biz/blog/column-avoid-single-community-dependence/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-remembering-names/</loc>
+    <loc>https://jinmyaku.biz/blog/column-remembering-names/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-frequency-builds-trust/</loc>
+    <loc>https://jinmyaku.biz/blog/column-frequency-builds-trust/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-business-cards-die-quietly/</loc>
+    <loc>https://jinmyaku.biz/blog/column-business-cards-die-quietly/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-real-estate-sales-networking/</loc>
+    <loc>https://jinmyaku.biz/blog/column-real-estate-sales-networking/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-author-koji-furuya/</loc>
+    <loc>https://jinmyaku.biz/blog/column-author-koji-furuya/</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-value-the-person-in-front/</loc>
+    <loc>https://jinmyaku.biz/blog/column-value-the-person-in-front/</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-essence-of-networking/</loc>
+    <loc>https://jinmyaku.biz/blog/column-essence-of-networking/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-attract-good-connections/</loc>
+    <loc>https://jinmyaku.biz/blog/column-attract-good-connections/</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-retention-with-jinmyaku-no-mori/</loc>
+    <loc>https://jinmyaku.biz/blog/column-retention-with-jinmyaku-no-mori/</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-5min-network-visualization/</loc>
+    <loc>https://jinmyaku.biz/blog/column-5min-network-visualization/</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-repeat-success-experiences/</loc>
+    <loc>https://jinmyaku.biz/blog/column-repeat-success-experiences/</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-reply-friendly-email/</loc>
+    <loc>https://jinmyaku.biz/blog/column-reply-friendly-email/</loc>
     <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-gratitude-points/</loc>
+    <loc>https://jinmyaku.biz/blog/column-gratitude-points/</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-community-for-introverts/</loc>
+    <loc>https://jinmyaku.biz/blog/column-community-for-introverts/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-referral-flywheel/</loc>
+    <loc>https://jinmyaku.biz/blog/column-referral-flywheel/</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-meeting-etiquette/</loc>
+    <loc>https://jinmyaku.biz/blog/column-meeting-etiquette/</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-pre-meeting-research/</loc>
+    <loc>https://jinmyaku.biz/blog/column-pre-meeting-research/</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-trustworthy-profile/</loc>
+    <loc>https://jinmyaku.biz/blog/column-trustworthy-profile/</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-mutual-friend-effect/</loc>
+    <loc>https://jinmyaku.biz/blog/column-mutual-friend-effect/</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jinmyaku-mori.jp/blog/column-hunting-to-farming/</loc>
+    <loc>https://jinmyaku.biz/blog/column-hunting-to-farming/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-connector-maven/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-transactive-memory/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jinmyaku.biz/blog/jinmyaku-propinquity/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
