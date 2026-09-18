@@ -260,7 +260,7 @@ nav a:hover{color:var(--accent)}
 .blog-cat-chip .cnt{display:inline-block;margin-left:6px;padding:0 6px;border-radius:999px;font-size:10.5px;font-weight:700;background:rgba(255,255,255,.14);color:inherit}
 .blog-cat-chip.on .cnt{background:rgba(255,255,255,.28)}
 .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
-.blog-card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:22px;cursor:pointer;transition:.2s;display:flex;flex-direction:column}
+.blog-card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:22px;cursor:pointer;transition:.2s;display:flex;flex-direction:column;text-decoration:none;color:inherit}
 .blog-card:hover{border-color:var(--accent);transform:translateY(-2px)}
 .blog-card .blog-num{font-size:11px;color:var(--accent);font-weight:700;letter-spacing:1px;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;gap:8px}
 .blog-card .blog-date{font-size:10.5px;color:var(--text3);font-weight:500;letter-spacing:.3px;white-space:nowrap}
@@ -1515,6 +1515,7 @@ const BLOG_ARTICLES = [
   {
     title: "狩猟型から農耕型ベースの人脈形成",
     date: "2026-05-05",
+    slug: "column-hunting-to-farming",
     excerpt: "名刺の数を追う「狩猟型」から、時間をかけて関係を育てる「農耕型」へ。人脈の質を変える発想の転換。",
     category: "考え方",
     body: [
@@ -1542,6 +1543,7 @@ const BLOG_ARTICLES = [
   {
     title: "共通の友人が持つ心理的効果",
     date: "2026-05-12",
+    slug: "column-mutual-friend-effect",
     excerpt: "「〇〇さんの紹介です」の一言が、初対面の警戒心を溶かすのはなぜか。社会心理学から人脈の力を読み解く。",
     category: "心理学",
     body: [
@@ -1569,6 +1571,7 @@ const BLOG_ARTICLES = [
   {
     title: "この人なら大丈夫と思ってもらうプロフィール設計",
     date: "2026-05-19",
+    slug: "column-trustworthy-profile",
     excerpt: "名刺交換の後、相手はあなたをどう覚えているか。「安心感」を生むプロフィールの作り方。",
     category: "実践",
     body: [
@@ -1596,6 +1599,7 @@ const BLOG_ARTICLES = [
   {
     title: "事前リサーチ方法",
     date: "2026-05-26",
+    slug: "column-pre-meeting-research",
     excerpt: "会う前の5分が、その後の関係を大きく左右する。相手を尊重した事前リサーチの作法。",
     category: "実践",
     body: [
@@ -1621,6 +1625,7 @@ const BLOG_ARTICLES = [
   {
     title: "会うにつなげる面談作法",
     date: "2026-06-02",
+    slug: "column-meeting-etiquette",
     excerpt: "名刺交換で終わらせず「また会いたい」と思われるための、次のアポにつなげる面談の作法。",
     category: "実践",
     body: [
@@ -1646,6 +1651,7 @@ const BLOG_ARTICLES = [
   {
     title: "紹介が回り続ける仕組みづくり",
     date: "2026-06-09",
+    slug: "column-referral-flywheel",
     excerpt: "紹介は偶然の産物ではなく、仕組みで生み出せる。紹介の連鎖を止めないための考え方。",
     category: "紹介・コミュニティ",
     body: [
@@ -1668,6 +1674,7 @@ const BLOG_ARTICLES = [
   {
     title: "引っ込み思案でもOK コミュニティの活用方法",
     date: "2026-06-16",
+    slug: "column-community-for-introverts",
     excerpt: "自分から声をかけるのが苦手でも、人脈は築ける。コミュニティを味方につける考え方。",
     category: "紹介・コミュニティ",
     body: [
@@ -1690,6 +1697,7 @@ const BLOG_ARTICLES = [
   {
     title: "人が集まる感謝ポイントテクニック",
     date: "2026-06-23",
+    slug: "column-gratitude-points",
     excerpt: "「与える人」のまわりには自然と人が集まる。感謝を可視化して循環させるテクニック。",
     category: "心理学",
     body: [
@@ -1712,6 +1720,7 @@ const BLOG_ARTICLES = [
   {
     title: "回答メッセージが来やすいメール手法",
     date: "2026-06-30",
+    slug: "column-reply-friendly-email",
     excerpt: "送ったメールが埋もれて返信が来ない。返信率を上げる、ちょっとした書き方の工夫。",
     category: "実践",
     body: [
@@ -1733,6 +1742,7 @@ const BLOG_ARTICLES = [
   {
     title: "うまくいった経験を回し続けるテクニック",
     date: "2026-07-07",
+    slug: "column-repeat-success-experiences",
     excerpt: "一度の成功を偶然で終わらせない。再現性のある人脈術に変えるための振り返り方。",
     category: "考え方",
     body: [
@@ -1753,6 +1763,7 @@ const BLOG_ARTICLES = [
   {
     title: "毎日5分でできる人脈可視化アクションステップ",
     date: "2026-07-14",
+    slug: "column-5min-network-visualization",
     excerpt: "特別な時間を取らなくていい。毎日5分の小さな習慣が、人脈の森を豊かに育てる。",
     category: "考え方",
     body: [
@@ -1773,6 +1784,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈の森を活用してリテンションを強化する方法",
     date: "2026-07-21",
+    slug: "column-retention-with-jinmyaku-no-mori",
     excerpt: "新規開拓ばかりに目が向きがちだが、既存の人脈をつなぎ止める「リテンション」こそ資産の本体。",
     category: "紹介・コミュニティ",
     body: [
@@ -1792,6 +1804,7 @@ const BLOG_ARTICLES = [
   {
     title: "良質な人脈を手に入れる方法 ー 運気を高め、運気を育てる",
     date: "2026-07-28",
+    slug: "column-attract-good-connections",
     excerpt: "「運がいい人」には共通する行動パターンがある。人脈という切り口から、運気を育てる方法を考えます。",
     category: "考え方",
     body: [
@@ -1813,6 +1826,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈の本質 ー 与える人だけがたどり着ける景色",
     date: "2026-08-04",
+    slug: "column-essence-of-networking",
     excerpt: "得ることばかり考える人に、人脈は育たない。助けたい人に出会い、強くなり、さらに助けられる自分になる循環こそが人脈の本質。",
     category: "考え方",
     body: [
@@ -1831,6 +1845,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈に恵まれるには ー 「得になる人」ではなく、目の前の人を大切にする",
     date: "2026-08-11",
+    slug: "column-value-the-person-in-front",
     excerpt: "たった一人との出会いから、仕事が広がり、人生が変わることがある。今すぐ利益にならないご縁を雑に扱わないことが、人脈に恵まれる人の共通点。",
     category: "考え方",
     body: [
@@ -1848,6 +1863,7 @@ const BLOG_ARTICLES = [
   {
     title: "ブログ執筆者紹介 ー 古谷幸治（株式会社プロジェクト・イノベーション 代表取締役CEO）",
     date: "2026-08-18",
+    slug: "column-author-koji-furuya",
     excerpt: "プロジェクト管理会計のプロフェッショナルが、なぜ「人脈の森」を作ったのか。執筆者・古谷幸治の経歴とバックグラウンド。",
     category: "執筆者紹介",
     image: "column-profile.jpg",
@@ -1871,6 +1887,7 @@ const BLOG_ARTICLES = [
   {
     title: "不動産営業の人脈形成の極意 ー 業者会・エンドユーザー・Eight活用まで",
     date: "2026-08-25",
+    slug: "column-real-estate-sales-networking",
     excerpt: "仕入から販売、賃貸、リフォームまで領域が広い不動産業界。継続した関係を築くために欠かせない人脈の広げ方・保ち方。",
     category: "実践",
     body: [
@@ -1894,6 +1911,7 @@ const BLOG_ARTICLES = [
   {
     title: "名刺は増えるのに、関係は静かに死んでいく。",
     date: "2026-09-01",
+    slug: "column-business-cards-die-quietly",
     excerpt: "交換した名刺は増え続けるのに、本当に頼れる関係は増えていかない。多くの人が見過ごしている、人脈の「静かな死」について。",
     category: "考え方",
     body: [
@@ -1915,6 +1933,7 @@ const BLOG_ARTICLES = [
   {
     title: "会う回数が信頼をつくる ー 単純接触効果から見る人脈育成",
     date: "2026-09-09",
+    slug: "column-frequency-builds-trust",
     excerpt: "人は会う回数が増えるほど、その相手に好印象を持ちやすくなる。心理学の単純接触効果を、人脈育成にどう活かすか。",
     category: "心理学",
     body: [
@@ -1934,6 +1953,7 @@ const BLOG_ARTICLES = [
   {
     title: "名前を呼べる人が信頼される理由と、忘れないための工夫",
     date: "2026-09-09",
+    slug: "column-remembering-names",
     excerpt: "名前を覚えているだけで、相手への敬意は伝わる。ちょっとした工夫で名前を忘れなくなる、実践的なコツをまとめました。",
     category: "実践",
     body: [
@@ -1953,6 +1973,7 @@ const BLOG_ARTICLES = [
   {
     title: "一つのコミュニティに依存しない人脈の育て方",
     date: "2026-09-09",
+    slug: "column-avoid-single-community-dependence",
     excerpt: "居心地の良い一つの輪に閉じてしまうと、人脈は広がりを止めてしまう。複数のコミュニティを行き来する価値について。",
     category: "紹介・コミュニティ",
     body: [
@@ -1972,6 +1993,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈を「量」で測るのをやめる ー 深さを可視化するという発想",
     date: "2026-09-10",
+    slug: "column-depth-over-quantity",
     excerpt: "名刺の枚数やフォロワー数を追いかけるより、関係の深さを可視化すること。人脈を本当の資産に変える発想の転換について。",
     category: "考え方",
     body: [
@@ -1992,6 +2014,7 @@ const BLOG_ARTICLES = [
   {
     title: "小さなお願いが信頼を育てる ー 一貫性の原理と人脈術",
     date: "2026-09-10",
+    slug: "column-small-favors-consistency",
     excerpt: "小さなお願いや約束の積み重ねが、大きな信頼を育てる。心理学の一貫性の原理を人脈術に応用する方法。",
     category: "心理学",
     body: [
@@ -2012,6 +2035,7 @@ const BLOG_ARTICLES = [
   {
     title: "次の世代に人脈をつなぐ ー 紹介する側としてのメンターシップ",
     date: "2026-09-10",
+    slug: "column-mentorship-passing-connections",
     excerpt: "自分の人脈を次の世代に手渡す、紹介する側としてのメンターシップという視点について。",
     category: "紹介・コミュニティ",
     body: [
@@ -2032,6 +2056,7 @@ const BLOG_ARTICLES = [
   {
     title: "先に与える人が、なぜ最後に得をするのか ー 返報性の心理学と人脈の森",
     date: "2026-09-11",
+    slug: "column-givers-win-in-the-end",
     excerpt: "見返りを求めず先に与える人ほど、なぜ結果的に多くの助けを得られるのか。返報性の心理学から人脈術を考える。",
     category: "心理学",
     body: [
@@ -2051,6 +2076,7 @@ const BLOG_ARTICLES = [
   {
     title: "紹介をお願いするときの、角が立たない伝え方",
     date: "2026-09-11",
+    slug: "column-asking-for-referrals-gracefully",
     excerpt: "紹介してほしいと伝えたいのに、図々しいと思われるのが怖い。相手に負担をかけない紹介の頼み方を考える。",
     category: "実践",
     body: [
@@ -2069,6 +2095,7 @@ const BLOG_ARTICLES = [
   {
     title: "紹介上手な人がやっている、たった3つの心がけ",
     date: "2026-09-11",
+    slug: "column-three-habits-of-good-referrers",
     excerpt: "紹介がうまい人には共通点がある。人と人をつなぐときに意識しておきたい、3つのシンプルな心がけを紹介する。",
     category: "紹介・コミュニティ",
     body: [
@@ -2087,6 +2114,7 @@ const BLOG_ARTICLES = [
   {
     title: "紹介した相手同士がうまくいかなかったときにすべきこと",
     date: "2026-09-12",
+    slug: "column-when-referrals-go-wrong",
     excerpt: "紹介は必ず成功するとは限らない。うまくいかなかったときの振る舞い方にこそ、紹介者としての信頼が静かに表れる。",
     category: "紹介・コミュニティ",
     body: [
@@ -2106,6 +2134,7 @@ const BLOG_ARTICLES = [
   {
     title: "初対面で「また会いたい」と思われる質問の選び方",
     date: "2026-09-12",
+    slug: "column-questions-for-meeting-again",
     excerpt: "初対面の印象を決めるのは話した内容よりも聞き方。また会いたいと思ってもらえる質問の工夫を考えてみる。",
     category: "実践",
     body: [
@@ -2125,6 +2154,7 @@ const BLOG_ARTICLES = [
   {
     title: "初対面なのになぜか馴染む人 ー 類似性の法則と人脈術",
     date: "2026-09-12",
+    slug: "column-similarity-attraction",
     excerpt: "初めて会ったのに妙に話が合う相手がいるのはなぜか。心理学の類似性の法則から、良好な関係の築き方を考える。",
     category: "心理学",
     body: [
@@ -2144,6 +2174,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈を「資産」として棚卸しする ー 年に一度の人脈決算のすすめ",
     date: "2026-09-13",
+    slug: "column-annual-network-audit",
     excerpt: "決算書を作るように、年に一度は人脈を棚卸ししてみる。関係の資産価値をあらためて可視化する習慣のすすめです。",
     category: "考え方",
     body: [
@@ -2163,6 +2194,7 @@ const BLOG_ARTICLES = [
   {
     title: "「弱いつながり」が人生を変える ー グラノベッターの理論と人脈の森",
     date: "2026-09-13",
+    slug: "column-weak-ties-granovetter",
     excerpt: "親しい友人より、たまにしか会わない知人からの情報が転機になる。社会学が示す弱い紐帯の力を人脈術に活かします。",
     category: "心理学",
     body: [
@@ -2182,6 +2214,7 @@ const BLOG_ARTICLES = [
   {
     title: "初回の御礼から始まる関係 ー 出会った当日にすべきたった一つのこと",
     date: "2026-09-13",
+    slug: "column-thank-you-on-day-one",
     excerpt: "名刺交換の後、何をするかで関係の芽吹き方は変わる。出会った当日に送る一通の御礼が、その後の人脈を左右します。",
     category: "実践",
     body: [
@@ -2201,6 +2234,7 @@ const BLOG_ARTICLES = [
   {
     title: "みんなが頼る人は、なぜもっと頼られるのか ー 社会的証明の心理学と人脈の森",
     date: "2026-09-14",
+    slug: "column-social-proof-influencers",
     excerpt: "多くの人から頼られている人は、なぜさらに頼られるのか。社会的証明の心理学から、信頼が信頼を呼ぶ仕組みを考えます。",
     category: "心理学",
     body: [
@@ -2219,6 +2253,7 @@ const BLOG_ARTICLES = [
   {
     title: "オンラインで知り合った人を、どう紹介するか ー デジタル時代の紹介の作法",
     date: "2026-09-14",
+    slug: "column-introducing-online-contacts",
     excerpt: "SNSやオンラインコミュニティで出会った人をどう紹介すればいいのか。デジタル時代ならではの紹介の心得をまとめます。",
     category: "紹介・コミュニティ",
     body: [
@@ -2237,6 +2272,7 @@ const BLOG_ARTICLES = [
   {
     title: "同じような人ばかりの人脈から、一歩踏み出す勇気 ー 多様性がひらく新しい出会い",
     date: "2026-09-14",
+    slug: "column-step-out-of-homogeneous-network",
     excerpt: "気づけば同じ業界・同じような立場の人ばかりと繋がっていませんか。人脈に多様性を取り入れる意義と、その一歩を考えます。",
     category: "考え方",
     body: [
@@ -2255,6 +2291,7 @@ const BLOG_ARTICLES = [
   {
     title: "「頼める関係」と「顔見知り」の違い ー 社会的浸透理論から考える人脈の深さ",
     date: "2026-09-16",
+    slug: "column-reliable-vs-acquaintance",
     excerpt: "名刺交換した「知り合い」が、なぜ「頼れる人」にはなかなか育たないのか。心理学の視点から関係の深さを考えます。",
     category: "心理学",
     body: [
@@ -2273,6 +2310,7 @@ const BLOG_ARTICLES = [
   {
     title: "人を紹介する前に、自分が確かめておきたいこと ー 紹介責任という考え方",
     date: "2026-09-16",
+    slug: "column-referral-responsibility",
     excerpt: "紹介は相手への信用の橋渡し。だからこそ紹介する前に、自分なりに確かめておきたい小さな事前確認があります。",
     category: "紹介・コミュニティ",
     body: [
@@ -2291,6 +2329,7 @@ const BLOG_ARTICLES = [
   {
     title: "人脈が増えるほど、整理の仕組みが要る ー 名刺が数百枚を超えたときにすべきこと",
     date: "2026-09-16",
+    slug: "column-organizing-large-contact-lists",
     excerpt: "名刺やつながりが数百人分を超えると、記憶と勘だけでは管理できなくなる。増えた人脈を腐らせない整理の工夫。",
     category: "実践",
     body: [
@@ -2309,6 +2348,7 @@ const BLOG_ARTICLES = [
   {
     title: "しばらく連絡していない人ほど、実は人脈の資産になる理由",
     date: "2026-09-15",
+    slug: "column-dormant-contacts-as-assets",
     excerpt: "しばらく連絡していない相手ほど、実は大きな資産になり得る。休眠期間を恐れず人脈を育てる考え方について。",
     category: "考え方",
     body: [
@@ -2328,6 +2368,7 @@ const BLOG_ARTICLES = [
   {
     title: "商談の「終わり方」で印象は決まる ー ピーク・エンドの法則から考える人脈術",
     date: "2026-09-15",
+    slug: "column-peak-end-rule",
     excerpt: "会話の内容以上に、別れ際の一言が記憶に残る。心理学のピーク・エンドの法則から、印象に残る面談の終え方を考える。",
     category: "心理学",
     body: [
@@ -2347,6 +2388,7 @@ const BLOG_ARTICLES = [
   {
     title: "人が自然と話しかけたくなる人になる ー 名刺交換会での立ち居振る舞い",
     date: "2026-09-15",
+    slug: "column-natural-conversation-at-events",
     excerpt: "会話の内容より先に、立ち方や表情で話しかけやすさは決まる。交流会で選ばれる人になるための小さな工夫。",
     category: "実践",
     body: [
@@ -2384,12 +2426,12 @@ function formatBlogDate(d){
 function renderBlogGrid(){
   const items = BLOG_ARTICLES.map((a,i)=>({a,i})).filter(x=>blogActiveCat==="すべて" || x.a.category===blogActiveCat);
   document.getElementById('blogGrid').innerHTML = items.map(({a,i})=>`
-    <div class="blog-card reveal in" onclick="openBlogArticle(${i})">
+    <a class="blog-card reveal in" href="${blogArticleUrl(i) || 'javascript:void(0)'}">
       <div class="blog-num">COLUMN ${String(i+1).padStart(2,'0')}<span class="blog-date">${formatBlogDate(a.date)}</span></div>
       <h3>${a.title}</h3>
       <p>${a.excerpt}</p>
       <span class="blog-read">続きを読む →</span>
-    </div>
+    </a>
   `).join('') || '<p style="color:var(--text3);font-size:13px;text-align:center;grid-column:1/-1">該当するコラムがありません。</p>';
 }
 function setBlogCategory(c){
@@ -2424,6 +2466,10 @@ function blogIndexFromSlug(slug){
   if(!m) return -1;
   const i = parseInt(m[1],10) - 1;
   return (i>=0 && i<BLOG_ARTICLES.length) ? i : -1;
+}
+function blogArticleUrl(i){
+  const a = BLOG_ARTICLES[i];
+  return a && a.slug ? `https://jinmyaku.biz/blog/${a.slug}/` : null;
 }
 let blogCurrentIndex = -1;
 function openBlogArticle(i, opts){
@@ -2465,7 +2511,7 @@ function openBlogArticle(i, opts){
   document.getElementById('blogModalOverlay').classList.add('show');
   document.getElementById('blogShareCopied').classList.remove('show');
   if(!opts.fromHash){
-    history.pushState({blog:i}, '', '#' + blogSlug(i));
+    history.pushState({blog:i}, '', location.pathname + location.search + '#blog');
   }
 }
 function closeBlogArticle(opts){
@@ -2478,7 +2524,7 @@ function closeBlogArticle(opts){
 }
 function copyBlogArticleLink(){
   if(blogCurrentIndex < 0) return;
-  const url = location.origin + location.pathname + '#' + blogSlug(blogCurrentIndex);
+  const url = blogArticleUrl(blogCurrentIndex) || (location.origin + location.pathname + '#' + blogSlug(blogCurrentIndex));
   const done = ()=>{
     const el = document.getElementById('blogShareCopied');
     el.classList.add('show');
