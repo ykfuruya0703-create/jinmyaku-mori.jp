@@ -353,6 +353,11 @@ nav a:hover{color:var(--accent)}
 
 /* ── DIFFERENTIATION (感謝ポイント / AIおまかせ) ── */
 .diff-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.tegire-why{background:var(--bg2);border:1px solid var(--border2);border-radius:14px;padding:22px 26px;margin:28px 0;font-size:13.5px;color:var(--text2);line-height:1.8}
+.tegire-why b{color:var(--accent)}
+.tegire-conditions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+.tegire-cond-chip{display:flex;align-items:flex-start;gap:10px;background:var(--bg2);border:1px solid var(--border2);border-radius:12px;padding:14px 18px;font-size:12.5px;color:var(--text2);line-height:1.7;flex:1 1 280px}
+.tegire-cond-chip .ico{font-size:17px;flex-shrink:0}
 .diff-card{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:28px}
 .diff-card h3{font-size:16px;margin-bottom:10px;color:var(--text);display:flex;align-items:center;gap:8px}
 .diff-card p{font-size:13px;color:var(--text2);margin-bottom:14px}
@@ -495,6 +500,7 @@ var _trackingid = 'LFT-46372-1';
       <a href="#features">機能</a>
       <a href="#voices">活用イメージ</a>
       <a href="#blog">コラム</a>
+      <a href="#tegire">手入れ</a>
       <a href="blog/">最新記事</a>
       <a href="#podcast">ポッドキャスト</a>
       <a href="#pricing">料金</a>
@@ -1392,6 +1398,74 @@ var _trackingid = 'LFT-46372-1';
   </div>
 </section>
 
+<section id="tegire">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow"><span class="dot"></span>New・人間関係の「手入れ」</div>
+      <h2 class="section-title">名刺は、管理できる。<br>関係は、手入れされないと枯れる。</h2>
+      <p class="section-desc">連絡先と会話メモから近況を自動整理し、「連絡すべき人」「贈るべきもの」「話すべき話題」を提案します（ルールベースの提案で、外部AIは使用していません）。経営者向けには、提案を実行まで運ぶ秘書的な機能も付けられます。</p>
+    </div>
+
+    <div class="feat-grid">
+      <div class="feat-card reveal">
+        <div class="ico">📇</div>
+        <h3>名刺管理サービス</h3>
+        <p>名刺のデータ化・検索には強いが、「誰にいつ連絡すべきか」までは手入れしてくれない。</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="ico">📈</div>
+        <h3>営業CRM</h3>
+        <p>商談の進捗管理には強いが、商談化する前の人間関係そのものを育てる発想が薄い。</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="ico">📞</div>
+        <h3>秘書代行</h3>
+        <p>日程調整や電話応対は代行できても、誰との関係を優先して手入れすべきかは判断できない。</p>
+      </div>
+    </div>
+
+    <div class="tegire-why reveal">
+      <b>なぜお金を払う価値があるか。</b> 人脈そのものが事業機会に直結する経営者・営業職にとって、「連絡し忘れ」は見えない機会損失です。関係が死んでいることにすら気づけないまま、紹介や商談の芽を逃している人は少なくありません。手入れを仕組み化することは、人脈という資産を目減りさせない保険でもあります。
+    </div>
+
+    <div class="tegire-conditions reveal">
+      <div class="tegire-cond-chip"><span class="ico">🔒</span><span>ご本人が入力した連絡先・会話メモを中心に提案する設計。プライバシーに配慮し、無断でのデータ収集はしません。</span></div>
+      <div class="tegire-cond-chip"><span class="ico">🔗</span><span>Sansan Eightなど既存の名刺管理サービスと連携。名刺情報を取り込むだけで、手入れの対象として使えます。</span></div>
+    </div>
+
+    <div class="price-grid">
+      <div class="price-card reveal">
+        <div class="ptag">Tegire</div>
+        <h3>手入れプラン</h3>
+        <div class="pdesc">個人版・企業版に追加できるオプション。近況整理と、連絡・贈り物・話題の提案を自動化</div>
+        <div class="pval">¥15,000<span>〜 / 月</span></div>
+        <div class="pnote">個人版・企業版へのアドオンとして追加</div>
+        <ul>
+          <li>連絡先・会話メモからの近況自動整理</li>
+          <li>「連絡すべき人」の優先提案</li>
+          <li>贈り物・話題の提案</li>
+          <li>名刺管理サービスとの連携</li>
+        </ul>
+        <a class="btn btn-outline" href="#cta"><span>手入れプランを試す</span></a>
+      </div>
+      <div class="price-card featured reveal">
+        <div class="ptag">Tegire Secretary</div>
+        <h3>手入れ＋秘書パック</h3>
+        <div class="pdesc">経営者向け。手入れプランの提案を、実際の連絡・手配まで秘書的に代行</div>
+        <div class="pval">¥80,000<span>〜 / 月</span></div>
+        <div class="pnote">手入れプランの全機能を含む</div>
+        <ul>
+          <li>手入れプランの全機能</li>
+          <li>提案された連絡・贈り物手配の秘書代行</li>
+          <li>優先度の高い関係への個別フォロー設計</li>
+          <li>専任担当によるヒアリング・調整</li>
+        </ul>
+        <a class="btn btn-primary" href="#cta"><span>秘書パックを相談する</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="referral">
   <div class="container">
     <div class="section-head center reveal">
@@ -1506,6 +1580,7 @@ var _trackingid = 'LFT-46372-1';
         <a href="blog/">最新記事（独立ページ）</a>
         <a href="#podcast">ポッドキャスト</a>
         <a href="#community">コミュニティ</a>
+        <a href="#tegire">手入れ</a>
         <a href="#referral">紹介キャンペーン</a>
         <a href="#market">市場</a>
         <a href="#profile">開発者</a>
